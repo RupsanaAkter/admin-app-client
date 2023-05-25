@@ -18,7 +18,7 @@ const ForgetPassword = () => {
             <CustomInput type="password" label="Email Address" id="email" />
   
             <button
-              className="border-0 px-3 py-2 text-white fw-bold w-100"
+              className="border-0 px-3 py-2 mt-4 text-white fw-bold w-100"
               style={{ background: "#ffd333" }}
               type="submit"
             >
