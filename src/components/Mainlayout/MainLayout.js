@@ -18,7 +18,7 @@ import {
 import { RiCouponLine } from "react-icons/ri";
 // import { ToastContainer } from "react-toastify";
 // import "react-toastify/dist/ReactToastify.css";
-// import { Link } from "react-router-dom";
+
 import { Link, Outlet } from "react-router-dom";
 import { ImBlog } from "react-icons/im";
 import { IoIosNotifications } from "react-icons/io";
@@ -206,7 +206,7 @@ const MainLayout = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <h5 className="mb-0">Navdeep</h5>
+                <h5 className="mb-0">Rupsana</h5>
                 <p className="mb-0">rupsanaworld1004@gmail.com</p>
               </div>
               <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
