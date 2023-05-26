@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import CustomInput from '../../components/CustomInput/CustomInput';
 import ReactQuill from 'react-quill';
-
+import "react-quill/dist/quill.snow.css";
 const Addblog = () => {
     const [desc,setdesc]=useState();
     const handleDesc=(e)=>{
