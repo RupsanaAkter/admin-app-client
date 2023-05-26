@@ -10,6 +10,7 @@ import Addblog from './pages/Addblog/Addblog';
 import Customers from './pages/Customers/Customers';
 import Enquries from './pages/Enquries/Enquries';
 import Bloglist from './pages/Bloglist/Bloglist';
+import BlogCatlist from './pages/BlogCatlist/BlogCatlist';
 function App() {
   return (
     <Router>
@@ -27,14 +28,14 @@ function App() {
           <Route path="blog-list" element={<Bloglist />} /> 
           <Route path="blog" element={<Addblog />} /> 
           <Route path="blog/:id" element={<Addblog />} />
-           {/* <Route path="coupon-list" element={<Couponlist />} />
+            {/* <Route path="coupon-list" element={<Couponlist />} />
           <Route path="coupon" element={<AddCoupon />} />
-          <Route path="coupon/:id" element={<AddCoupon />} />
-          <Route path="blog-category-list" element={<Blogcatlist />} />
-          <Route path="blog-category" element={<Addblogcat />} />
-          <Route path="blog-category/:id" element={<Addblogcat />} />
-          <Route path="orders" element={<Orders />} />
-          <Route path="order/:id" element={<ViewOrder />} /> */}
+          <Route path="coupon/:id" element={<AddCoupon />} /> */}
+          <Route path="blog-category-list" element={<BlogCatlist />} />
+          {/* <Route path="blog-category" element={<Addblogcat />} />
+          <Route path="blog-category/:id" element={<Addblogcat />} /> */}
+          {/* <Route path="orders" element={<Orders />} /> */}
+          {/* <Route path="order/:id" element={<ViewOrder />} />  */}
            <Route path="customers" element={<Customers />} />
           {/* <Route path="list-color" element={<Colorlist />} />
           <Route path="color" element={<Addcolor />} />
