@@ -8,6 +8,7 @@ import MainLayout from './components/Mainlayout/MainLayout';
 import Dashboard from './pages/Dashboard/Dashboard';
 import Addblog from './pages/Addblog/Addblog';
 import Customers from './pages/Customers/Customers';
+import Enquries from './pages/Enquries/Enquries';
 function App() {
   return (
     <Router>
@@ -20,10 +21,10 @@ function App() {
         
 
 
-        {/* <Route path="enquiries" element={<Enquiries />} />
-          <Route path="enquiries/:id" element={<ViewEnq />} />
+          <Route path="enquiries" element={<Enquries />} />
+          {/* <Route path="enquiries/:id" element={<ViewEnq />} />
           <Route path="blog-list" element={<Bloglist />} /> */}
-          <Route path="blog" element={<Addblog />} />
+          <Route path="blog" element={<Addblog />} /> 
           <Route path="blog/:id" element={<Addblog />} />
            {/* <Route path="coupon-list" element={<Couponlist />} />
           <Route path="coupon" element={<AddCoupon />} />
